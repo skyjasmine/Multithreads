@@ -7,11 +7,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Executer : NSObject
 
-@property NSOperationQueue *queue;
-@property NSMutableArray *taskArray;
+@property （nonatomic,strong) NSOperationQueue *queue;
+@property (nonatomic,strong) NSMutableArray *taskArray;
 
 -(void)execute;
--(void)OnFinish:(blk_t)anBlock;
+-(void)onFinish:(blk_t)anBlock;
 
 @end
 
