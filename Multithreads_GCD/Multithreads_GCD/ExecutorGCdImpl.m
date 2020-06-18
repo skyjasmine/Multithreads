@@ -5,7 +5,7 @@
 
 -(instancetype)init
 {
-    if([super init])
+    if(self = [super init])
     {
         _queue = dispatch_queue_create("coom.example.gcd.ForBarrier", DISPATCH_QUEUE_CONCURRENT);
     }
