@@ -7,7 +7,7 @@
 //initialize NSOperation Queue
 -(instancetype)init
 {
-    if([super init])
+    if(self = [super init])
     {
         _queue = [[NSOperationQueue alloc]init];
         _queue.maxConcurrentOperationCount = 5;
