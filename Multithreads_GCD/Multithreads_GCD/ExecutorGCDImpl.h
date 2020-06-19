@@ -3,7 +3,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ExecutorGCdImpl : NSObject<Executor>
+@interface ExecutorGCDImpl : NSObject<Executor>
 
 @property (nonatomic,strong) dispatch_queue_t queue;
 
