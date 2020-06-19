@@ -1,7 +1,7 @@
 //Implement multithreads with GCD
-#import "ExecutorGCdImpl.h"
+#import "ExecutorGCDImpl.h"
 
-@implementation ExecutorGCdImpl
+@implementation ExecutorGCDImpl
 
 -(instancetype)init
 {
