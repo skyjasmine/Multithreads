@@ -1,5 +1,5 @@
 #import "ExecutorFactory.h"
-#import "ExecutorGCdImpl.h"
+#import "ExecutorGCDImpl.h"
 #import "ExecutorOperationImpl.h"
 
 @implementation ExecutorFactory
