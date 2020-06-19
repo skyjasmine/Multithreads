@@ -9,7 +9,7 @@
     return [[ExecutorGCdImpl alloc]init];
 }
 
-+(id<Executor>)operatinExecutor
++(id<Executor>)operationExecutor
 {
     return [[ExecutorOperationImpl alloc]init];
 }
